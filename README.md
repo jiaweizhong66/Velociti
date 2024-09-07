@@ -43,4 +43,9 @@ Launch Page:
 ## License
 This project is licensed under the MIT License.
 
+## Acknowledgements
+- Swift and SwiftUI documentation for providing in-depth guidance and examples.
+- Apple’s Developer Documentation for detailed resources on iOS development.
+- Community forums and GitHub repositories for inspiration and troubleshooting help.
+
 
