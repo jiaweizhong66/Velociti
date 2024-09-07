@@ -24,6 +24,12 @@ Velociti is designed for cyclists who want to track their rides and performance.
 - Scalable and modern SwiftUI components
 
 ## Screenshots
+Logo:
+<img width="67" alt="Screenshot 2024-09-07 at 8 18 35 AM" src="https://github.com/user-attachments/assets/ec7951c9-9430-43d2-a14b-218b110d7886">
+
+Launch Page:
+![Screenshot 2024-09-07 at 8 19 11 AM](https://github.com/user-attachments/assets/695878e5-53d5-4d11-ba60-c4146009acf0)
+
 
 ### Login and Sign Up Screen
 
