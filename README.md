@@ -33,13 +33,12 @@ Launch Page:
 
 ### Login and Sign Up Screen
 
-![Login Screen](screenshots/login-screen.png)
 
 ## Technologies Used
 
 - **Swift** - Core programming language for iOS app development.
 - **SwiftUI** - Used for building the user interface with declarative syntax.
 - **Xcode** - The primary IDE for iOS app development.
-- **Palatino & Times New Roman Fonts** - Custom fonts used in the UI for branding.
+
 
 
