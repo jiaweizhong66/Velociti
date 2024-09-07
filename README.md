@@ -40,5 +40,7 @@ Launch Page:
 - **SwiftUI** - Used for building the user interface with declarative syntax.
 - **Xcode** - The primary IDE for iOS app development.
 
+## License
+This project is licensed under the MIT License.
 
 
