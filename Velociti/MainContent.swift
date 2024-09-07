@@ -9,8 +9,22 @@ import SwiftUI
 
 struct MainContentView: View {
     var body: some View {
-        Text("Main content goes here")
-            .font(.largeTitle)
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            
+            MapView()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
+            
+            YouView()
+                .tabItem {
+                    Label("You", systemImage: "person")
+                }
+        }
     }
 }
 
@@ -19,4 +33,5 @@ struct MainContentView_Previews: PreviewProvider {
         MainContentView()
     }
 }
+
 

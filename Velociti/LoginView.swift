@@ -20,9 +20,7 @@ struct LoginView: View {
                         .font(.custom("Times New Roman", size: 20))
                         .padding(.top, geometry.size.height * 0.2) // Dynamic padding based on screen height
                     
-                    Text("Velociti")
-                        .font(.custom("Palatino", size: 34)) // Use custom font with specified size
-                        .fontWeight(.bold)
+                    TypingLogoAnimationView()
                     
                     Spacer() // Push buttons to the bottom
                 }

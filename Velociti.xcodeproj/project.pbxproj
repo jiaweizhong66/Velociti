@@ -12,6 +12,10 @@
 		8383D9B22C8C1EFA00EC4E8B /* VelocitiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9B12C8C1EFA00EC4E8B /* VelocitiApp.swift */; };
 		8383D9B62C8C288E00EC4E8B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9B52C8C288E00EC4E8B /* LoginView.swift */; };
 		8383D9B82C8C290700EC4E8B /* MainContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9B72C8C290700EC4E8B /* MainContent.swift */; };
+		8383D9BB2C8C91F100EC4E8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9BA2C8C91F100EC4E8B /* HomeView.swift */; };
+		8383D9BD2C8C922300EC4E8B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9BC2C8C922300EC4E8B /* MapView.swift */; };
+		8383D9BF2C8C924100EC4E8B /* YouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9BE2C8C924100EC4E8B /* YouView.swift */; };
+		8383D9C32C8C967B00EC4E8B /* TypingLogoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383D9C22C8C967B00EC4E8B /* TypingLogoAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8383D9B12C8C1EFA00EC4E8B /* VelocitiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocitiApp.swift; sourceTree = "<group>"; };
 		8383D9B52C8C288E00EC4E8B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8383D9B72C8C290700EC4E8B /* MainContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContent.swift; sourceTree = "<group>"; };
+		8383D9BA2C8C91F100EC4E8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8383D9BC2C8C922300EC4E8B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8383D9BE2C8C924100EC4E8B /* YouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouView.swift; sourceTree = "<group>"; };
+		8383D9C22C8C967B00EC4E8B /* TypingLogoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingLogoAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		8383D99C2C8C1ED700EC4E8B /* Velociti */ = {
 			isa = PBXGroup;
 			children = (
+				8383D9B92C8C91CF00EC4E8B /* TabContent */,
 				8383D9B12C8C1EFA00EC4E8B /* VelocitiApp.swift */,
 				8383D9A62C8C1ED900EC4E8B /* Assets.xcassets */,
 				8383D9AB2C8C1ED900EC4E8B /* Info.plist */,
 				8383D9A82C8C1ED900EC4E8B /* LaunchScreen.storyboard */,
 				8383D9B52C8C288E00EC4E8B /* LoginView.swift */,
 				8383D9B72C8C290700EC4E8B /* MainContent.swift */,
+				8383D9C22C8C967B00EC4E8B /* TypingLogoAnimation.swift */,
 			);
 			path = Velociti;
+			sourceTree = "<group>";
+		};
+		8383D9B92C8C91CF00EC4E8B /* TabContent */ = {
+			isa = PBXGroup;
+			children = (
+				8383D9BA2C8C91F100EC4E8B /* HomeView.swift */,
+				8383D9BC2C8C922300EC4E8B /* MapView.swift */,
+				8383D9BE2C8C924100EC4E8B /* YouView.swift */,
+			);
+			path = TabContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8383D9B82C8C290700EC4E8B /* MainContent.swift in Sources */,
+				8383D9BB2C8C91F100EC4E8B /* HomeView.swift in Sources */,
+				8383D9BF2C8C924100EC4E8B /* YouView.swift in Sources */,
+				8383D9BD2C8C922300EC4E8B /* MapView.swift in Sources */,
+				8383D9C32C8C967B00EC4E8B /* TypingLogoAnimation.swift in Sources */,
 				8383D9B62C8C288E00EC4E8B /* LoginView.swift in Sources */,
 				8383D9B22C8C1EFA00EC4E8B /* VelocitiApp.swift in Sources */,
 			);
